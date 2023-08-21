@@ -2,7 +2,7 @@
 
 import mysql.connector
 
-con=mysql.connector.connect(host="localhost",user="root",password="akamysql@2022",database="commands")
+con=mysql.connector.connect(host="localhost",user="root",password="Enter mysql database password",database="commands")
 
 #initialize a cursor to perform queries.....................................
 mycursor=con.cursor()
